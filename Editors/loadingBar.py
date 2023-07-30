@@ -1,4 +1,4 @@
-# A copy of Al Sweigart's Progress Bar in the Big Book Of Small Python Projects, Project #57
+# An alteration of Al Sweigart's Progress Bar in the Big Book Of Small Python Projects, Project #57
 # NOTE: To print any text after the loading bar, you must create a newline, but all text before doesn't need to make
 # a newline for the bar
 import random, time
