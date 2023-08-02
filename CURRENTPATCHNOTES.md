@@ -39,7 +39,7 @@ Released on 08/01/2023
 
 D.E.Octa (v1.4.2):
 
-Realeased on 08/15/2023
+Realeased on 08/02/2023
 > Added the ability to view contents of 'databases.txt'
 
 > Text at the start of the program + app options text has had a visual overhaul (QoL)
@@ -58,7 +58,7 @@ Realeased on 08/15/2023
 
 D.E.Octa - QoL Update (v1.4.3):
 
-Released on 08/31/2023
+Released on 08/03/2023
 > Print the database session number that you are on (updates every time a new database session is created using function 6) (QoL)
 
 > Added ability to see all patch notes or just the ones for the current version (QoL)
@@ -70,6 +70,29 @@ Released on 08/31/2023
 > Keep a short wait between executing a command - checking the contents of a database - and re-printing the options bar (waiting times will vary between different events) (QoL)
 
 > Removed unneccessary newlines from the Edtior options menu (QoL)
+
+D.E.Nona (v1.5.3):
+
+Released on 08/04/2023
+> Users can now clear the 'databases.txt' file
+
+> The option to delete certain items from the database is now a loop to allow multiple specific items to be removed in one go
+
+> Added graceful error handling for all file-related functions (QoL)
+
+> Added graceful error handling at the start of the 'main()' function to check if the file exists (QoL)
+
+
+D.E.Nona - Visuals Update (v1.5.4):
+
+Released on 08/05/2023
+> Added a loading bar at the start of the program to simulate the app loading up (Visual)
+
+> Add a floating + spinning cube to the screen once the user leaves the editor. It can be cancelled by pressing Ctrl + C (Visual)
+
+> Changed the indent levels of titles within the option select text (QoL)
+
+> App now clears the shell of all text for Operations 90 (show all patches), 91 (show current patch) and ! (exit the editor) (QoL)
 
 
 END OF CURRENT PATCH NOTES
