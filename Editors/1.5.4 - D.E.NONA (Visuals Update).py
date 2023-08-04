@@ -182,7 +182,7 @@ Notes
     print(current_patch)
 
 def main():
-    fileName = "C:/Users/Khizar/Desktop/Coding/Python Projects/Database Editor Series/databases.txt"
+    fileName = "databases.txt"
     try: # Checking to make sure that 'databases.txt' is accessible to the app at the start of the program
         with open(fileName, "r"):
             pass
