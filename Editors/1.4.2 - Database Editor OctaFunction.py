@@ -107,7 +107,7 @@ Other patches may be added below this line if I think of something
 
 def main():
     data_store = []
-    fileName = "C:/Users/Khizar/Desktop/Coding/Python Projects/Database Editor Series/databases.txt"
+    fileName = "databases.txt"
     print("Entering the Database Editor...\n")
   
     while True:
