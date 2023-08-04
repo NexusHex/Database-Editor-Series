@@ -147,7 +147,7 @@ Notes
 
 def main():
     data_store = []
-    fileName = "C:/Users/Khizar/Desktop/Coding/Python Projects/Database Editor Series/databases.txt"
+    fileName = "databases.txt"
     dataSession = 1
     print("Entering the Database Editor...\n")
     t.sleep(1)
