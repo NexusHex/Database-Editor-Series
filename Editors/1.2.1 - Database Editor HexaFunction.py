@@ -22,7 +22,7 @@ def save_to_file(data, fileName):
 
 def main():
   data = []
-  fileName = "C:/Users/Khizar/Desktop/Coding/Python Projects/Database Editor Series/databases.txt"
+  fileName = "databases.txt"
   print("Entering the Database Editor...\n")
   while True:
     print("Database Control Options:\n1. Edit the data\n2. View the contents of the database\n3. Remove select values from the database\n4. Clear the database of all data\n5. Save this session's database to a file\n6. Exit the Database Editor")
