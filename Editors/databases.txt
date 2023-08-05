@@ -1,2 +1,1 @@
-This is a text file used for storing all inputs from the Database Editors to 'fileName'
-_
+This is a text file used for storing all inputs from the Database Editors to 'fileName'. Remove this text or use the 'clear file storing all databases' option in the Editor before you add anything. Thanks
