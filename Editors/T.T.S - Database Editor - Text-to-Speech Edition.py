@@ -453,8 +453,8 @@ def check_for_files(FILENAME, ALLPATCHES): # Checks if all infomation files need
         sys.exit()
 
 def main():
-    FILENAME = "C:/Users/Khizar/Desktop/Coding/Python Projects/Database Editor Series/databases.txt"
-    ALLPATCHES = "C:/Users/Khizar/Desktop/Coding/Python Projects/Database Editor Series/all_patch_notes.txt"
+    FILENAME = "databases.txt"
+    ALLPATCHES = "all_patch_notes.txt"
     OPTIONSMENU = """
 Database Editing -\n
     1. Edit the data
