@@ -1,5 +1,3 @@
-ALL PATCHNOTES ARE UPDATED RELATIVE TO WHEN I HAVE POSTED THE VERSION TO AN ONLINE PLATFORM, SOME FUTURE GENERATIONS OF THE SERIES MAY BE MISSING, AND SOME MAY BE ADDED AHEAD OF THE RELEASE DATE
-
 All versions listed here are available in this repo
 
 D.E.Quad (v1.0):
@@ -44,7 +42,7 @@ Realeased on 08/02/2023
 
 > Text at the start of the program + app options text has had a visual overhaul (QoL)
 
-> Gave all past version patch notes titles for the type of change that occured (<new> , -bug- , <QoL>) (QoL)
+> Gave all past version patch notes titles for the type of change that occured (QoL)
 
 > Command to exit Editor has been changed to '!' in correspondance with a bug found during testing (QoL)
 
@@ -94,5 +92,44 @@ Released on 08/05/2023
 
 > App now clears the shell of all text for Operations 90 (show all patches), 91 (show current patch) and ! (exit the editor) (QoL)
 
+D.E.Deca (v1.6.4):
 
-END OF CURRENT PATCH NOTES
+Released on 08/06/2023
+> Remove certain databases from the 'databases.txt' file
+
+> User can shorten the wait time between events by using an in-built command (QoL)
+
+> Flavor text printed after saving a database to the file has been rewritten (QoL)
+
+> Users have the option to turn off the animations in the Editor menu (QoL)
+
+> Options for checking current/all patch notes have been renamed to '0' and '00 (QoL)
+
+> Function 'view_file()' now returns 'The file is empty' if there are no databases or comments within the file (QoL)
+
+D.E.Deca - TTS Update (vT.T.S):
+
+Released on 08/07/2023
+> Users can choose to have terminal text spoken to them by a text-to-speech module (TTS)
+
+> Users can now inspect the documentation of the Database Editor
+
+> The program is now exited every time the graceful error handling catches an error; this prevents error propagation (QoL)
+
+> The text stored in the 'show_all_patches()' function have been moved into file 'all_patch_notes.txt' (QoL)
+
+> The system to check for the files being present/accessible to the program has been moved to function 'check_for_files()' (QoL)
+
+
+ALL UPDATES OF THE EDITOR (TERMINAL-BASED) WILL BE PUT ONTO DATABASE EDTIOR DECAFUNCTION FROM HERE
+
+D.E.Deca (v1.6.5):
+
+Released on 08/08/2023
+> Variable 'fileName' has been renamed to FILENAME since it is a constant (QoL)
+
+> The text stored in the 'show_all_patches()' function have been moved into file 'all_patch_notes.txt' (QoL)
+
+> The program is now exited every time the graceful error handling catches an error; this prevents error propagation (QoL)
+
+> The system to check for the files being present/accessible to the program has been moved to function 'check_for_files()' (QoL)
