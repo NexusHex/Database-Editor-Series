@@ -92,7 +92,7 @@ Released on 08/07/2023
 
 ----------------------------------------------------------------------------------------
 
-D.E.Deca (v1.6.5);
+D.E.Deca (v1.6.5):
 Released on 08/08/2023
 
 <QoL> Variable 'fileName' has been renamed to FILENAME since it is a constant
