@@ -1,5 +1,5 @@
 # VERSION 1.6.5 <D.E.DECA>
-# Requires file 'databases.txt'
+# Requires files 'databases.txt' and 'all_patch_notes.txt'
 # Requires modules 'loadingBar.py' and 'rotatingCube.py'
 
 # NOTE: Some of the code used in this program has been taken from the responses of ChatGPT, but I have made sure to tweak every non-original response so I 
