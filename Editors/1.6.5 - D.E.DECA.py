@@ -258,6 +258,7 @@ Other -\n
     0. Check patch notes for the current version only
     00. Check all past and current patch notes
     ? - Fast Mode
+    ~ - Low Performance Mode
     ! -  Exit the Database Editor\n
         """
     data_store = []
