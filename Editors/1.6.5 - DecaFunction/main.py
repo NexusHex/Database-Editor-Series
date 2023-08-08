@@ -22,6 +22,29 @@ except ImportError:
     print("Module 'rotatingCube' does not exist in the same directory as the app. Please check the app directory and make sure that the module is there")
     sys.exit()
 
+FILENAME = "databases.txt"
+    ALLPATCHES = "all_patch_notes.txt"
+    check_for_files(FILENAME, ALLPATCHES)
+    OPTIONSMENU = """
+Database Editing -\n
+    1. Edit the data
+    2. View the contents of the current database
+    3. Remove select values from the current database
+    4. Clear the database of all data
+    5. Clear + create a new database session\n
+Files -\n
+    6. Save the current database to a file
+    7. View the contents of the file holding all databases
+    8. Clear the database file of all databases
+    9. Write a comment to the database-holding file
+    10. Remove certain databases from the database-holding file\n
+Other -\n
+    0. Check patch notes for the current version only
+    00. Check all past and current patch notes
+    ? - Fast Mode
+    ~ - Low Performance Mode
+    ! -  Exit the Database Editor\n
+        """
 def add_to_database(data_store): # Is called when Option 1 is picked
   while True:
     dataAdd = input("\nAdd data to list (case-sensitive). Type \'stop\' to terminate: ")
@@ -238,29 +261,6 @@ def check_for_files(FILENAME, ALLPATCHES): # Checks if all infomation files need
         sys.exit()
 
 def main():
-    FILENAME = "databases.txt"
-    ALLPATCHES = "all_patch_notes.txt"
-    check_for_files(FILENAME, ALLPATCHES)
-    OPTIONSMENU = """
-Database Editing -\n
-    1. Edit the data
-    2. View the contents of the current database
-    3. Remove select values from the current database
-    4. Clear the database of all data
-    5. Clear + create a new database session\n
-Files -\n
-    6. Save the current database to a file
-    7. View the contents of the file holding all databases
-    8. Clear the database file of all databases
-    9. Write a comment to the database-holding file
-    10. Remove certain databases from the database-holding file\n
-Other -\n
-    0. Check patch notes for the current version only
-    00. Check all past and current patch notes
-    ? - Fast Mode
-    ~ - Low Performance Mode
-    ! -  Exit the Database Editor\n
-        """
     data_store = []
     dataSession = 1
     fast = False
