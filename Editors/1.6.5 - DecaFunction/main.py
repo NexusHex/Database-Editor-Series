@@ -24,7 +24,6 @@ except ImportError:
 
 FILENAME = "databases.txt"
     ALLPATCHES = "all_patch_notes.txt"
-    check_for_files(FILENAME, ALLPATCHES)
     OPTIONSMENU = """
 Database Editing -\n
     1. Edit the data
@@ -265,6 +264,7 @@ def main():
     dataSession = 1
     fast = False
     animations = True
+    check_for_files(FILENAME, ALLPATCHES)
     print("Entering the Database Editor...\n")
 
     if animations:
