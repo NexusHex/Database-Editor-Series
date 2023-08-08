@@ -133,3 +133,32 @@ Released on 08/08/2023
 > The program is now exited every time the graceful error handling catches an error; this prevents error propagation (QoL)
 
 > The system to check for the files being present/accessible to the program has been moved to function 'check_for_files()' (QoL)
+
+D.E.Deca (v1.6.5):
+
+Released on 08/08/2023
+> Variable 'fileName' has been renamed to FILENAME since it is a constant (QoL)
+
+> The text stored in the 'show_all_patches()' function have been moved into file 'all_patch_notes.txt' (QoL)
+
+> The program is now exited every time the graceful error handling catches an error; this prevents error propagation (QoL)
+
+> The system to check for the files being present/accessible to the program has been moved to function 'check_for_files()' (QoL)
+
+D.E.Deca (v1.6.6):
+
+Released on 08/09/2023
+> Constants have now been moved to the top of the program (QoL)
+
+> Error handling has been added to Option 3 (Remove certain values from the database) (QoL)
+
+D.E.Deca - TTS Update (vT.T.S):
+
+Released on 08/07/2023
+> Users can choose to have terminal text spoken to them by a text-to-speech module (TTS)
+
+> The program is now exited every time the graceful error handling catches an error; this prevents error propagation (QoL)
+
+> The text stored in the 'show_all_patches()' function have been moved into file 'all_patch_notes.txt' (QoL)
+
+> The system to check for the files being present/accessible to the program has been moved to function 'check_for_files()' (QoL)
