@@ -44,6 +44,18 @@ Other -\n
     ~ - Low Perfomance Mode
     ! -  Exit the Database Editor\n
         """
+CURRENTPATCH = """
+LATEST VERSION (08/09/2023)
+D.E.Deca (v1.6.6):
+
+Additions
+>>>>>>>>>>>>> Constants have now been moved to the top of the program
+>>>>>>>>>>>>> Error handling has been added to Option 3 (Remove certain values from the database)
+>>>>>>>>>>>>> Function 'show_current_patch()' has been removed since it included only one constant being defined and printed. The print statement is now in the if statement within 'main()'
+
+Bug Fixes
+------------- NO BUG FIXES THIS PATCH
+"""
 
 def add_to_database(data_store): # Is called when Option 1 is picked
   while True:
@@ -205,20 +217,6 @@ def delete_from_database_file(FILENAME): # Is called when Option 10 is called (T
         print("\nIf you keep experiencing issues with the app like this and they do not seem to go away even when you fix the issue, please contact the creator in the comments section of whatever platform you are viewing this code on, thanks.\n")
         sys.exit()
 
-def show_current_patch(): # Is called when Option 0 is called
-    current_patch = """
-LATEST VERSION (08/09/2023)
-D.E.Deca (v1.6.6):
-
-Additions
->>>>>>>>>>>>> Constants have now been moved to the top of the program
->>>>>>>>>>>>> Error handling has been added to Option 3 (Remove certain values from the database)
-
-Bug Fixes
-------------- NO BUG FIXES THIS PATCH
-"""
-    print(current_patch)
-
 def show_all_patches(ALLPATCHES): # Is called when Option 00 is called
     try:
         with open(ALLPATCHES, 'r') as file:
@@ -369,7 +367,7 @@ def main():
 
         elif choice == "0": # Show the patch notes for the current patch
             os.system('cls')
-            show_current_patch()
+            print(CURRENTPATCH)
 
             if fast == True:
                 time.sleep(2.5)
