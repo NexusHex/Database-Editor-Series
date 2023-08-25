@@ -120,9 +120,6 @@ Released on 08/07/2023
 
 > The system to check for the files being present/accessible to the program has been moved to function 'check_for_files()' (QoL)
 
-
-ALL UPDATES OF THE EDITOR (TERMINAL-BASED) WILL BE PUT ONTO DATABASE EDTIOR DECAFUNCTION FROM HERE
-
 D.E.Deca (v1.6.5):
 
 Released on 08/08/2023
